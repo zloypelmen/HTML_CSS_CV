@@ -82,3 +82,31 @@ aside section article{
     padding: 10px;
     
 }
+.container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+aside section article .education-container .item {
+    margin-bottom: 15px;
+}
+
+aside section article .education-container .item:last-child {
+    margin-bottom: 0;
+}
+
+aside section article .education-container .meta {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+aside section article .education-container .time {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
