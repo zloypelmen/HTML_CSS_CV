@@ -27,6 +27,10 @@ aside {
     color: #fff;
 }
 
+aside a {
+    color: #fff;
+}
+
 aside .profile-container {
     padding: 30px;
     background: rgba(0, 0, 0, 0.2);
@@ -56,4 +60,25 @@ aside .tagline {
     border: 0px solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+aside .contact-list .fa {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+aside .contact-list li {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+
+aside .contact-list .email .fa {
+    font-size: 14px;
+}
+
+aside section article{
+    padding: 10px;
+    
 }
