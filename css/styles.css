@@ -1,0 +1,211 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #545E6C;
+    background: #f5f5f5;
+    font-size: 14px;
+    padding: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main aside{
+    background: #4CAC9D;
+    position: absolute;
+    right: 0;
+    width: 240px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    background: #ffffff;
+    min-height: 800px;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+main article .section-title .fa {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #35776d;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+}
+
+
+main .main-information{
+    background: #fff;
+    padding: 60px;
+    padding-right: 300px;
+}
+
+
+main article {
+    margin-bottom: 60px;
+}
+
+main article .item .meta .upper-row .job-title {
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+main aside  section article .time {
+    position: relative;
+    right: 0;
+    top: 0;
+    color: #97AAC3;
+}
+
+main .company {
+    margin-bottom: 10px;
+    color: #97AAC3;
+}
+
+main .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+aside a {
+    color: #fff;
+}
+
+aside .profile-container {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+aside .name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+aside .tagline {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+aside .contact-list .fa {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+aside .contact-list li {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+
+aside .contact-list .email .fa {
+    font-size: 14px;
+}
+
+aside section article{
+    padding: 10px;
+    
+}
+.container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+aside section article .education-container .item {
+    margin-bottom: 15px;
+}
+
+aside section article .education-container .item:last-child {
+    margin-bottom: 0;
+}
+
+aside section article .education-container .meta {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+aside section article .education-container .time {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+aside section article .languages-container .lang-desc {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+aside section article .languages-list {
+    margin-bottom: 0;
+}
+
+aside section article .languages-list li {
+    margin-bottom: 10px;
+}
+
+aside section article .languages-list li:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 30px;
+    padding-top: 60px;
+}
+
+footer .fa-heart {
+    color: #fb866a;
+}
+
+footer .copyright {
+    line-height: 1.6;
+    color: #545E6C;
+    font-size: 13px;
+}
