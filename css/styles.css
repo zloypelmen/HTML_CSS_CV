@@ -69,6 +69,32 @@ main section article {
     margin-bottom: 60px;
 }
 
+main section article .item .meta .upper-row .job-title {
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+main aside  section article .time {
+    position: relative;
+    right: 0;
+    top: 0;
+    color: #97AAC3;
+}
+
+main .company {
+    margin-bottom: 10px;
+    color: #97AAC3;
+}
+
+main .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
 aside a {
     color: #fff;
 }
@@ -167,19 +193,4 @@ aside section article .languages-list li {
 
 aside section article .languages-list li:last-child {
     margin-bottom: 0;
-}
-
-footer {
-    padding: 30px;
-    padding-top: 60px;
-}
-
-footer .fa-heart {
-    color: #fb866a;
-}
-
-footer .copyright {
-    line-height: 1.6;
-    color: #545E6C;
-    font-size: 13px;
 }
