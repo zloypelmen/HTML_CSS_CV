@@ -8,8 +8,34 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+main aside{
+    background: #4CAC9D;
+    position: absolute;
+    right: 0;
+    width: 240px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-main section .section-title .fa {
+main {
+    background: #ffffff;
+    min-height: 800px;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+main section article .section-title .fa {
     width: 30px;
     height: 30px;
     margin-right: 8px;
@@ -31,48 +57,16 @@ main section .section-title .fa {
     top: -2px;
 }
 
-main section {
+
+main .main-information{
+    background: #fff;
+    padding: 60px;
+    padding-right: 300px;
+}
+
+
+main section article {
     margin-bottom: 60px;
-}
-
-main .experiences-section .item {
-    margin-bottom: 30px;
-}
-
-main .job-title {
-    color: #3F4650;
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 500;
-}
-
-main .time {
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: #97AAC3;
-}
-
-main .company {
-    margin-bottom: 10px;
-    color: #97AAC3;
-}
-
-main .upper-row {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2px;
-}
-
-aside {
-    background: #4CAC9D;
-    position: absolute;
-    right: 0;
-    width: 240px;
-    height: 100%;
-    min-height: 800px;
-    color: #fff;
 }
 
 aside a {
@@ -175,3 +169,17 @@ aside section article .languages-list li:last-child {
     margin-bottom: 0;
 }
 
+footer {
+    padding: 30px;
+    padding-top: 60px;
+}
+
+footer .fa-heart {
+    color: #fb866a;
+}
+
+footer .copyright {
+    line-height: 1.6;
+    color: #545E6C;
+    font-size: 13px;
+}
