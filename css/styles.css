@@ -69,6 +69,11 @@ main article {
     margin-bottom: 60px;
 }
 
+main article .intro .list-skills{
+    list-style-type: disc; 
+    color: #3F4650;
+}
+
 main article .item .meta .upper-row .job-title {
     color: #3F4650;
     font-size: 16px;
