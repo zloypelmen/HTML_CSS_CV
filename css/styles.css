@@ -74,6 +74,30 @@ main article .intro .list-skills{
     color: #3F4650;
 }
 
+.kotlin-code {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+pre {
+    margin: 0;
+}
+
+code {
+    display: block;
+    padding: 5px;
+    color: #333;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
+.language-kotlin {
+    background-color: #f9f9f9;
+}
+
 main article .item .meta .upper-row .job-title {
     color: #3F4650;
     font-size: 16px;
