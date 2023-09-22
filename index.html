@@ -61,21 +61,30 @@
             <article>
                 <h2 class="section-title"><i class="fa fa-user"></i>Goal</h2>
                 <div class="summary">
-                    <p>To obtain a junior level position in the Information Technology field that will allow me to
-                        utilize my knowledge and experience in web development and application design.</p>
+                    <p>After a long process of determining my career path, I am looking to obtain a junior level position in Information Technology that will allow me to utilise my knowledge and experience in web development and application design</p>
                 </div>
             </article>
 
             <article>
-                <h2 class="section-title"><i class="fa fa-archive"></i>Hard skills & Soft slills</h2>
+                <h2 class="section-title"><i class="fa fa-archive"></i>Hard skills</h2>
                 <div class="intro">
                     <ul class="list-skills">
                         <li>Proficiency in C# programming language</li>
                         <li>Knowledge of Java programming language</li>
                         <li>Skills of working with SQL Server Management Studio</li>
+                        <li>Ability to create database models</li>
                         <li>Mastery of hypertext markup language HTML, as well as CSS</li>
                         <li>Git skills</li>
                         <li>Basic skills in creating mobile applications (AndroidStudio, Kotlin)</li>
+                    </ul>
+                </div>
+
+            </article>
+
+            <article>
+                <h2 class="section-title"><i class="fa fa-archive"></i>Soft slills</h2>
+                <div class="intro">
+                    <ul class="list-skills">
                         <li>Teamwork</li>
                         <li>Ability to manage your time competently</li>
                         <li>Punctuality</li>
@@ -95,32 +104,14 @@
                         <div class="company">Belarusian-Russian University</div>
                     </div>
                     <div class="details">
-                        <p>Start-up project "Mobile application for welding process control" (Android Studio, Kotlin)
-                        </p>
-                        <p>Crypto Compare" mobile application (Android Studio, Kotlin)</p>
+                        <p>Start-up project "Mobile application for welding process control" (Android Studio, Kotlin, .ASPNET, C#) (Commercial experience)</p>
+                        <p>"Crypto Compare" mobile application (Android Studio, Kotlin)</p>
                         <p>DoodleJump desktop application (Unity, C#)</p>
+                        <p>Database for the employee relocation system (TSQL)</p>
                     </div>
                 </div>
             </article>
-
-            </article>
-            <div class="kotlin-code">
-                <pre><code class="language-kotlin">fun logout() {
-            compositeBag.add(
-            repository.logout()
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe({
-                    Log.d("LOGOUT", "success")
-                    _uiState.value = SelectionModeScreenState.LoggedOut
-                }, {
-                    Log.d("LOGOUT", "error")
-                    _uiState.value = SelectionModeScreenState.Error(it)
-                })
-            )
-        }</code></pre>
-            </div>
-            </article>
+           
         </div>
     </main>
 
